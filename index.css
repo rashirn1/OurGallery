@@ -1,0 +1,437 @@
+  .my-menu
+  {
+    background-color: black;
+    text-align: right;
+    opacity: 0.9;
+  }
+  
+  .my-menu ul li
+  {
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 25px;
+  }
+  .img4
+  {
+    float: left;
+    align-content: flex-start;
+    padding-top:12px;
+    padding-left: 15px;
+  }
+  .my-menu ul li :hover
+  {
+    display: inline-block;
+  }
+  .my-menu ul li a
+  {
+    text-decoration: none;
+  }
+.my-menu ul li a:visited
+{
+  color: white;
+}
+  .description
+  {
+      text-align: center;
+      padding-top:40px;
+      font-family: 'IM Fell Great Primer',italic,cursive;
+      color: #123456;
+  }
+  .my-info
+  {
+      text-align: center;
+      padding-top:10px;
+      padding-left: 300px;
+      padding-right: 300px;
+      font-family: 'Kaisei Tokumin', serif bold;
+  }
+  .content-options
+  {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row1:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .content-options img
+  {
+      width:30%;
+      height:500px;
+      
+  }
+
+.btn1
+{
+    color: white;
+    opacity: 0.9;
+    background-color: black;
+
+}
+
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+.container img
+  {
+      justify-content: center;
+      width:33%;
+      height:200px;
+  }
+  .special-options
+  {
+    padding-bottom: 100px;
+    width:500px;
+    height: 500px;
+    position:static;
+  }
+  .box-size
+  {
+    justify-content: center;
+    background-color: #f2f5f7;
+    height: 1160px;
+
+    
+  }
+  .about-me
+  {
+      width:700px;
+      height:150px;
+      padding: 3px;
+  }
+  .about-me img
+  {
+    height: 300px;
+  }
+  .img-text
+  {
+    z-index: 500px;
+  }
+
+.text-about
+{
+  text-align: right;
+  padding-left: 600px;
+  padding-top: 60px;
+}
+.about-me1
+{
+  padding-left: 500px;
+}
+.title-logo
+{
+  position: absolute;
+  color:white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif bold;
+  padding: 0 40px;
+  height: 80px;
+  width: 100%;
+  top: 240px;
+  left: 50px;
+  text-align: left;
+}
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.2em;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+.text-letter
+{
+  font-size: 20PX;
+}
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+.latest-text1
+{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif italic;
+  padding-left:50px;
+  padding-right: 40px;
+}
+.latest-text
+{
+  padding-top:20px ;
+  font-family: italic bold  Dancing Script;
+}
+.whole-about-me
+{
+  height: 400px;
+  width: 100%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row
+{
+  padding: 0px;
+}
+.little-about
+{
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+}
+.little-about-para
+{
+  padding: 0px 40px 0px 0px;
+
+}
+.our-rating
+{
+  height: 500px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.my-options
+{
+  background-image: url("images/s1.jpg");
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  overflow: auto;  
+}
+.my-options1
+{
+  background-image: url("images/s2.jpg");
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+.row1
+{
+  height:350px;
+}
+.col1
+{
+  height: 350px;  
+}
+.my-options3
+{
+  background-image: url("images/s3.jpg");
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.content1{
+ position: relative;
+ font-size: 20px;
+ opacity: 0.8;
+ color: black;
+ background-color: white;
+ text-align: center;
+ height: 100px;
+ top: 280px;
+ padding-top: 10px;
+ padding: 10px;
+}
+.col1 {
+  float: left;
+  width: 30%;
+  height: 250px; /* Should be removed. Only for demonstration */
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row1
+{
+  white-space: normal;
+  padding-left: 90px;
+  margin-bottom: 100px;
+}
+.row2
+{
+  padding: 300px;
+}
+
+.wrapper{
+	width: 100%;
+
+}
+
+.container3 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+
+.container3 > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Grid */
+.container3 {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 300px;
+		grid-auto-flow: dense; /* Fill all spaces with fitted images */
+}
+
+.horizontal {
+	grid-column: span 2;
+}
+
+.vertical {
+	grid-row: span 2;
+}
+
+.big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1024px){
+	.wrapper{
+		width: 960px;
+		margin: 0 auto;
+	}
+}
+.Special-info
+{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  height: 600px;
+}
